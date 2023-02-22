@@ -4,7 +4,7 @@ let button = document.getElementById("search-button");
 let futureWeatherList = document.getElementById("weather-list");
 let currentWeatherList = document.getElementById("current-weather-list");
 let cityListEl = document.getElementById("city-list");
-let cityButton = document.querySelector(".city-button");
+let cityButton = document.querySelectorAll(".city-button");
 
 let cityName = document.getElementById("city");
 let currentTemp = document.getElementById("current-temp");
