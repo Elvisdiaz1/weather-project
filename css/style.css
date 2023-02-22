@@ -7,3 +7,7 @@
 header {
   background-color: aquamarine;
 }
+
+#weather section ul li {
+  list-style: none;
+}
